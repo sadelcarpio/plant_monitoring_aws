@@ -31,3 +31,4 @@ El objetivo final del flujo es enviar un correo electrónico con el nodo `email`
 - [ ] Aprovechar el modo de bajo consumo del PIC con el comando SLEEP()
 - [ ] Aprovechar el modo de bajo consumo del módulo TinyFox
 - [ ] Redireccionar los datos a un servicio que pueda ejecutar herramientas analíticas sobre la data.
+- [ ] Conseguir un sensor más preciso, capacitivo, ya que el actual tiende a malograrse rápidamente.
