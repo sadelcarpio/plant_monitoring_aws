@@ -1,0 +1,1442 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"113 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/adcc.c
+[e E16618 . `uc
+sensor 0
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"83 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\main.c
+[e E16634 . `uc
+sensor 0
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"332
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+"568
+[v _stoa stoa `(i  1 s 2 stoa ]
+"615
+[v _utoa utoa `(i  1 s 2 utoa ]
+"645
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\islower.c
+[v _islower islower `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"55 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"80
+[v _sensor_interrupt sensor_interrupt `(v  1 e 1 0 ]
+"97
+[v _send_AT send_AT `(v  1 e 1 0 ]
+"106
+[v _send_data send_data `(v  1 e 1 0 ]
+"62 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"137
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"52 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"62
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"78
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"66 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"134
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"151
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"155
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"66 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"131
+[v _UART1_is_tx_ready UART1_is_tx_ready `(a  1 e 1 0 ]
+"170
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"183
+[v _UART1_DefaultFramingErrorHandler UART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"185
+[v _UART1_DefaultOverrunErrorHandler UART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"187
+[v _UART1_DefaultErrorHandler UART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"190
+[v _UART1_SetFramingErrorHandler UART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"194
+[v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"198
+[v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
+"66 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/uart5.c
+[v _UART5_Initialize UART5_Initialize `(v  1 e 1 0 ]
+"136
+[v _UART5_Read UART5_Read `(uc  1 e 1 0 ]
+"161
+[v _UART5_Write UART5_Write `(v  1 e 1 0 ]
+"175
+[v _putch putch `(v  1 e 1 0 ]
+"184
+[v _UART5_DefaultFramingErrorHandler UART5_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"186
+[v _UART5_DefaultOverrunErrorHandler UART5_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"188
+[v _UART5_DefaultErrorHandler UART5_DefaultErrorHandler `(v  1 e 1 0 ]
+"191
+[v _UART5_SetFramingErrorHandler UART5_SetFramingErrorHandler `(v  1 e 1 0 ]
+"195
+[v _UART5_SetOverrunErrorHandler UART5_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"199
+[v _UART5_SetErrorHandler UART5_SetErrorHandler `(v  1 e 1 0 ]
+"1281 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f57q43.h
+[v _PMD0 PMD0 `VEuc  1 e 1 @96 ]
+"1338
+[v _PMD1 PMD1 `VEuc  1 e 1 @97 ]
+"1400
+[v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
+"1451
+[v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
+"1507
+[v _PMD5 PMD5 `VEuc  1 e 1 @101 ]
+"1558
+[v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
+"1620
+[v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
+"1682
+[v _PMD8 PMD8 `VEuc  1 e 1 @104 ]
+"5141
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5211
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5351
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5391
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5449
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5651
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"9653
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @531 ]
+"10605
+[v _RF0PPS RF0PPS `VEuc  1 e 1 @553 ]
+"14779
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @626 ]
+"15331
+[v _U5RXPPS U5RXPPS `VEuc  1 e 1 @634 ]
+"15475
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @646 ]
+"15607
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @647 ]
+"15739
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @648 ]
+"15871
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @649 ]
+"17048
+[v _U1RXB U1RXB `VEuc  1 e 1 @673 ]
+"17106
+[v _U1TXB U1TXB `VEuc  1 e 1 @675 ]
+"17171
+[v _U1P1L U1P1L `VEuc  1 e 1 @677 ]
+"17191
+[v _U1P1H U1P1H `VEuc  1 e 1 @678 ]
+"17218
+[v _U1P2L U1P2L `VEuc  1 e 1 @679 ]
+"17238
+[v _U1P2H U1P2H `VEuc  1 e 1 @680 ]
+"17265
+[v _U1P3L U1P3L `VEuc  1 e 1 @681 ]
+"17285
+[v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
+"17305
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
+[s S797 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"17338
+[s S802 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S808 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[s S211 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S819 . 1 `S797 1 . 1 0 `S802 1 . 1 0 `S808 1 . 1 0 `S211 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES819  1 e 1 @683 ]
+"17433
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
+"17513
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
+"17662
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @686 ]
+"17682
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
+"17702
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @688 ]
+"17832
+[v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
+"17888
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
+[s S243 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"17915
+[s S856 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S865 . 1 `S243 1 . 1 0 `S856 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES865  1 e 1 @690 ]
+"18000
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
+"20938
+[v _U5RXB U5RXB `VEuc  1 e 1 @749 ]
+"20976
+[v _U5TXB U5TXB `VEuc  1 e 1 @751 ]
+"21021
+[v _U5P1L U5P1L `VEuc  1 e 1 @753 ]
+"21048
+[v _U5P2L U5P2L `VEuc  1 e 1 @755 ]
+"21075
+[v _U5P3L U5P3L `VEuc  1 e 1 @757 ]
+"21095
+[v _U5CON0 U5CON0 `VEuc  1 e 1 @759 ]
+[s S197 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+"21126
+[s S201 . 1 `uc 1 U5MODE 1 0 :4:0 
+`uc 1 U5RXEN 1 0 :1:4 
+`uc 1 U5TXEN 1 0 :1:5 
+`uc 1 U5ABDEN 1 0 :1:6 
+`uc 1 U5BRGS 1 0 :1:7 
+]
+[s S207 . 1 `uc 1 U5MODE0 1 0 :1:0 
+`uc 1 U5MODE1 1 0 :1:1 
+`uc 1 U5MODE2 1 0 :1:2 
+]
+[u S217 . 1 `S197 1 . 1 0 `S201 1 . 1 0 `S207 1 . 1 0 `S211 1 . 1 0 ]
+[v _U5CON0bits U5CON0bits `VES217  1 e 1 @759 ]
+"21211
+[v _U5CON1 U5CON1 `VEuc  1 e 1 @760 ]
+"21291
+[v _U5CON2 U5CON2 `VEuc  1 e 1 @761 ]
+"21430
+[v _U5BRGL U5BRGL `VEuc  1 e 1 @762 ]
+"21450
+[v _U5BRGH U5BRGH `VEuc  1 e 1 @763 ]
+"21470
+[v _U5FIFO U5FIFO `VEuc  1 e 1 @764 ]
+"21600
+[v _U5UIR U5UIR `VEuc  1 e 1 @765 ]
+"21656
+[v _U5ERRIR U5ERRIR `VEuc  1 e 1 @766 ]
+"21683
+[s S252 . 1 `uc 1 U5TXCIF 1 0 :1:0 
+`uc 1 U5RXFOIF 1 0 :1:1 
+`uc 1 U5RXBKIF 1 0 :1:2 
+`uc 1 U5FERIF 1 0 :1:3 
+`uc 1 U5CERIF 1 0 :1:4 
+`uc 1 U5ABDOVF 1 0 :1:5 
+`uc 1 U5PERIF 1 0 :1:6 
+`uc 1 U5TXMTIF 1 0 :1:7 
+]
+[u S261 . 1 `S243 1 . 1 0 `S252 1 . 1 0 ]
+[v _U5ERRIRbits U5ERRIRbits `VES261  1 e 1 @766 ]
+"21768
+[v _U5ERRIE U5ERRIE `VEuc  1 e 1 @767 ]
+"23299
+[v _TMR0L TMR0L `VEuc  1 e 1 @792 ]
+"23437
+[v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
+"23691
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
+[s S1090 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"23719
+[s S1096 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S1102 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[u S1108 . 1 `S1090 1 . 1 0 `S1096 1 . 1 0 `S1102 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES1108  1 e 1 @794 ]
+"23789
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
+"35065
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
+"35193
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @986 ]
+"35328
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @987 ]
+"35456
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @988 ]
+"35591
+[v _ADERRL ADERRL `VEuc  1 e 1 @989 ]
+"35719
+[v _ADERRH ADERRH `VEuc  1 e 1 @990 ]
+"35854
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @991 ]
+"35982
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @992 ]
+"36117
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @993 ]
+"36245
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @994 ]
+"36382
+[v _ADACCL ADACCL `VEuc  1 e 1 @995 ]
+"36510
+[v _ADACCH ADACCH `VEuc  1 e 1 @996 ]
+"36638
+[v _ADACCU ADACCU `VEuc  1 e 1 @997 ]
+"36766
+[v _ADCNT ADCNT `VEuc  1 e 1 @998 ]
+"36894
+[v _ADRPT ADRPT `VEuc  1 e 1 @999 ]
+"37029
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @1000 ]
+"37157
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @1001 ]
+"37292
+[v _ADRESL ADRESL `VEuc  1 e 1 @1002 ]
+"37420
+[v _ADRESH ADRESH `VEuc  1 e 1 @1003 ]
+"37540
+[v _ADPCH ADPCH `VEuc  1 e 1 @1004 ]
+"37605
+[v _ADACQL ADACQL `VEuc  1 e 1 @1006 ]
+"37733
+[v _ADACQH ADACQH `VEuc  1 e 1 @1007 ]
+"37825
+[v _ADCAP ADCAP `VEuc  1 e 1 @1008 ]
+"37884
+[v _ADPREL ADPREL `VEuc  1 e 1 @1009 ]
+"38012
+[v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
+"38104
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
+[s S381 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"38142
+[s S389 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"38142
+[s S397 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+]
+"38142
+[s S401 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+"38142
+[s S403 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+"38142
+[u S407 . 1 `S381 1 . 1 0 `S389 1 . 1 0 `S397 1 . 1 0 `S401 1 . 1 0 `S403 1 . 1 0 ]
+"38142
+"38142
+[v _ADCON0bits ADCON0bits `VES407  1 e 1 @1011 ]
+"38222
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
+[s S621 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"38243
+[s S627 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"38243
+[u S633 . 1 `S621 1 . 1 0 `S627 1 . 1 0 ]
+"38243
+"38243
+[v _ADCON1bits ADCON1bits `VES633  1 e 1 @1012 ]
+"38288
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
+[s S497 . 1 `uc 1 MD 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"38325
+[s S502 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"38325
+[s S511 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+"38325
+[s S515 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+"38325
+[u S523 . 1 `S497 1 . 1 0 `S502 1 . 1 0 `S511 1 . 1 0 `S515 1 . 1 0 ]
+"38325
+"38325
+[v _ADCON2bits ADCON2bits `VES523  1 e 1 @1013 ]
+"38430
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
+[s S442 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"38465
+[s S446 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+"38465
+[s S454 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+"38465
+[s S458 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+"38465
+[u S466 . 1 `S442 1 . 1 0 `S446 1 . 1 0 `S454 1 . 1 0 `S458 1 . 1 0 ]
+"38465
+"38465
+[v _ADCON3bits ADCON3bits `VES466  1 e 1 @1014 ]
+"38560
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
+[s S557 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 AOV 1 0 :1:7 
+]
+"38597
+[s S564 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"38597
+[s S573 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+"38597
+[s S577 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 OV 1 0 :1:7 
+]
+"38597
+[u S583 . 1 `S557 1 . 1 0 `S564 1 . 1 0 `S573 1 . 1 0 `S577 1 . 1 0 ]
+"38597
+"38597
+[v _ADSTATbits ADSTATbits `VES583  1 e 1 @1015 ]
+"38692
+[v _ADREF ADREF `VEuc  1 e 1 @1016 ]
+"38774
+[v _ADACT ADACT `VEuc  1 e 1 @1017 ]
+"38878
+[v _ADCLK ADCLK `VEuc  1 e 1 @1018 ]
+"38982
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"39044
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"39106
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"39168
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"39230
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"39478
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"39540
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"39602
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"39664
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"39726
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"39974
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"40036
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"40098
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"40160
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"40222
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"40470
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+"40532
+[v _WPUD WPUD `VEuc  1 e 1 @1049 ]
+"40594
+[v _ODCOND ODCOND `VEuc  1 e 1 @1050 ]
+"40656
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @1051 ]
+"40718
+[v _INLVLD INLVLD `VEuc  1 e 1 @1052 ]
+"40780
+[v _ANSELE ANSELE `VEuc  1 e 1 @1056 ]
+"40812
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"40850
+[v _ODCONE ODCONE `VEuc  1 e 1 @1058 ]
+"40882
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @1059 ]
+"40914
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+"41015
+[v _ANSELF ANSELF `VEuc  1 e 1 @1064 ]
+"41077
+[v _WPUF WPUF `VEuc  1 e 1 @1065 ]
+"41139
+[v _ODCONF ODCONF `VEuc  1 e 1 @1066 ]
+"41201
+[v _SLRCONF SLRCONF `VEuc  1 e 1 @1067 ]
+"41263
+[v _INLVLF INLVLF `VEuc  1 e 1 @1068 ]
+[s S976 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+`uc 1 SPI1TXIE 1 0 :1:1 
+`uc 1 SPI1IE 1 0 :1:2 
+`uc 1 TMR2IE 1 0 :1:3 
+`uc 1 TMR1IE 1 0 :1:4 
+`uc 1 TMR1GIE 1 0 :1:5 
+`uc 1 CCP1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"45806
+[u S985 . 1 `S976 1 . 1 0 ]
+"45806
+"45806
+[v _PIE3bits PIE3bits `VES985  1 e 1 @1185 ]
+[s S997 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"46680
+[u S1006 . 1 `S997 1 . 1 0 ]
+"46680
+"46680
+[v _PIR3bits PIR3bits `VES1006  1 e 1 @1201 ]
+[s S778 . 1 `uc 1 U1RXIF 1 0 :1:0 
+`uc 1 U1TXIF 1 0 :1:1 
+`uc 1 U1EIF 1 0 :1:2 
+`uc 1 U1IF 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 PWM1PIF 1 0 :1:6 
+`uc 1 PWM1IF 1 0 :1:7 
+]
+"46741
+[u S786 . 1 `S778 1 . 1 0 ]
+"46741
+"46741
+[v _PIR4bits PIR4bits `VES786  1 e 1 @1202 ]
+[s S176 . 1 `uc 1 U5RXIF 1 0 :1:0 
+`uc 1 U5TXIF 1 0 :1:1 
+`uc 1 U5EIF 1 0 :1:2 
+`uc 1 U5IF 1 0 :1:3 
+`uc 1 DMA6SCNTIF 1 0 :1:4 
+`uc 1 DMA6DCNTIF 1 0 :1:5 
+`uc 1 DMA6ORIF 1 0 :1:6 
+`uc 1 DMA6AIF 1 0 :1:7 
+]
+"47262
+[u S185 . 1 `S176 1 . 1 0 ]
+"47262
+"47262
+[v _PIR13bits PIR13bits `VES185  1 e 1 @1211 ]
+"47378
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"47440
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"47502
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+"47564
+[v _LATD LATD `VEuc  1 e 1 @1217 ]
+"47626
+[v _LATE LATE `VEuc  1 e 1 @1218 ]
+"47658
+[v _LATF LATF `VEuc  1 e 1 @1219 ]
+[s S1182 . 1 `uc 1 LATF0 1 0 :1:0 
+`uc 1 LATF1 1 0 :1:1 
+`uc 1 LATF2 1 0 :1:2 
+`uc 1 LATF3 1 0 :1:3 
+`uc 1 LATF4 1 0 :1:4 
+`uc 1 LATF5 1 0 :1:5 
+`uc 1 LATF6 1 0 :1:6 
+`uc 1 LATF7 1 0 :1:7 
+]
+"47675
+[u S1191 . 1 `S1182 1 . 1 0 ]
+"47675
+"47675
+[v _LATFbits LATFbits `VES1191  1 e 1 @1219 ]
+"47720
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"47782
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"47844
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"47906
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+"47968
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+"48000
+[v _TRISF TRISF `VEuc  1 e 1 @1227 ]
+[s S950 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"48430
+[s S958 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"48430
+[u S961 . 1 `S950 1 . 1 0 `S958 1 . 1 0 ]
+"48430
+"48430
+[v _INTCON0bits INTCON0bits `VES961  1 e 1 @1238 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"58 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEus  1 e 2 0 ]
+"64
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.38(v  1 e 3 0 ]
+[s S123 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"53 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/uart1.c
+[u S128 . 1 `S123 1 . 1 0 `uc 1 status 1 0 ]
+[v _uart1RxLastError uart1RxLastError `VES128  1 s 1 uart1RxLastError ]
+"58
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _UART1_ErrorHandler UART1_ErrorHandler `*.38(v  1 e 3 0 ]
+"53 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/uart5.c
+[v _uart5RxLastError uart5RxLastError `VES128  1 s 1 uart5RxLastError ]
+"58
+[v _UART5_FramingErrorHandler UART5_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _UART5_OverrunErrorHandler UART5_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _UART5_ErrorHandler UART5_ErrorHandler `*.38(v  1 e 3 0 ]
+"55 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"78
+} 0
+"50 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"60
+} 0
+"66 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/uart5.c
+[v _UART5_Initialize UART5_Initialize `(v  1 e 1 0 ]
+{
+"115
+} 0
+"195
+[v _UART5_SetOverrunErrorHandler UART5_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v UART5_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"197
+} 0
+"191
+[v _UART5_SetFramingErrorHandler UART5_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v UART5_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"193
+} 0
+"199
+[v _UART5_SetErrorHandler UART5_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v UART5_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"201
+} 0
+"66 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"124
+} 0
+"194
+[v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"196
+} 0
+"190
+[v _UART1_SetFramingErrorHandler UART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"192
+} 0
+"198
+[v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"200
+} 0
+"66 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"151
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"153
+} 0
+"78 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"55 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"146
+} 0
+"62 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"52 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"62 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"111
+} 0
+"58 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"69
+} 0
+"134 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"148
+} 0
+"155
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"158
+} 0
+"80 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\main.c
+[v _sensor_interrupt sensor_interrupt `(v  1 e 1 0 ]
+{
+"88
+[v sensor_interrupt@value_hex value_hex `[4]uc  1 a 4 98 ]
+"87
+[v sensor_interrupt@moist_level moist_level `d  1 a 4 94 ]
+"82
+[v sensor_interrupt@value value `us  1 a 2 102 ]
+"95
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S1706 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+"13
+[v sprintf@f f `S1706  1 a 6 89 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 87 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 88 ]
+[v sprintf@fmt fmt `*.32Cuc  1 p 2 90 ]
+"23
+} 0
+"106 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\main.c
+[v _send_data send_data `(v  1 e 1 0 ]
+{
+[v send_data@val val `*.39uc  1 p 2 3 ]
+"115
+} 0
+"97
+[v _send_AT send_AT `(v  1 e 1 0 ]
+{
+[v send_AT@t t `*.34uc  1 p 2 1 ]
+"104
+} 0
+"131 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/uart1.c
+[v _UART1_is_tx_ready UART1_is_tx_ready `(a  1 e 1 0 ]
+{
+"134
+} 0
+"170
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+{
+[v UART1_Write@txData txData `uc  1 a 1 wreg ]
+[v UART1_Write@txData txData `uc  1 a 1 wreg ]
+[v UART1_Write@txData txData `uc  1 a 1 0 ]
+"177
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 87 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 88 ]
+"13
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 85 ]
+[s S1732 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S1732  1 p 2 82 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 84 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 86 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"697
+[v vfpfcnvrt@llu llu `uo  1 a 8 66 ]
+"698
+[v vfpfcnvrt@f f `d  1 a 4 74 ]
+"694
+[v vfpfcnvrt@ct ct `[3]uc  1 a 3 78 ]
+"695
+[v vfpfcnvrt@done done `i  1 a 2 58 ]
+"694
+[v vfpfcnvrt@cp cp `*.39uc  1 a 2 56 ]
+[v vfpfcnvrt@c c `uc  1 a 1 81 ]
+[s S1732 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S1732  1 p 2 75 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 77 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 79 ]
+"1387
+} 0
+"645
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+{
+"648
+[v xtoa@n n `uo  1 a 8 56 ]
+"647
+[v xtoa@c c `i  1 a 2 66 ]
+[v xtoa@i i `i  1 a 2 64 ]
+[v xtoa@w w `i  1 a 2 54 ]
+[v xtoa@p p `i  1 a 2 52 ]
+[s S1732 _IO_FILE 0 ]
+"645
+[v xtoa@fp fp `*.39S1732  1 p 2 29 ]
+[v xtoa@d d `uo  1 p 8 31 ]
+[v xtoa@x x `uc  1 p 1 39 ]
+"687
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+{
+[v toupper@c c `i  1 p 2 6 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\islower.c
+[v _islower islower `(i  1 e 2 0 ]
+{
+[v islower@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+{
+[v isalpha@c c `i  1 p 2 0 ]
+"8
+} 0
+"615 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _utoa utoa `(i  1 s 2 utoa ]
+{
+"618
+[v utoa@n n `uo  1 a 8 51 ]
+"617
+[v utoa@i i `i  1 a 2 59 ]
+[v utoa@w w `i  1 a 2 49 ]
+[v utoa@p p `i  1 a 2 47 ]
+[s S1732 _IO_FILE 0 ]
+"615
+[v utoa@fp fp `*.39S1732  1 p 2 29 ]
+[v utoa@d d `uo  1 p 8 31 ]
+"641
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+{
+"12
+[v ___lomod@counter counter `uc  1 a 1 16 ]
+"9
+[v ___lomod@dividend dividend `uo  1 p 8 0 ]
+[v ___lomod@divisor divisor `uo  1 p 8 8 ]
+"27
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+{
+"12
+[v ___lodiv@quotient quotient `uo  1 a 8 16 ]
+"13
+[v ___lodiv@counter counter `uc  1 a 1 24 ]
+"9
+[v ___lodiv@dividend dividend `uo  1 p 8 0 ]
+[v ___lodiv@divisor divisor `uo  1 p 8 8 ]
+"32
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+"5
+[v strncmp@r r `*.32Cuc  1 a 2 9 ]
+[v strncmp@l l `*.39Cuc  1 a 2 7 ]
+"3
+[v strncmp@_l _l `*.39Cuc  1 p 2 0 ]
+[v strncmp@_r _r `*.32Cuc  1 p 2 2 ]
+[v strncmp@n n `ui  1 p 2 4 ]
+"9
+} 0
+"568 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _stoa stoa `(i  1 s 2 stoa ]
+{
+"570
+[v stoa@nuls nuls `[7]uc  1 a 7 16 ]
+"571
+[v stoa@l l `i  1 a 2 31 ]
+[v stoa@p p `i  1 a 2 29 ]
+"570
+[v stoa@cp cp `*.39uc  1 a 2 27 ]
+"571
+[v stoa@w w `i  1 a 2 25 ]
+[v stoa@i i `i  1 a 2 23 ]
+[s S1732 _IO_FILE 0 ]
+"568
+[v stoa@fp fp `*.39S1732  1 p 2 11 ]
+[v stoa@s s `*.39uc  1 p 2 13 ]
+"570
+[v stoa@F1155 F1155 `[7]uc  1 s 7 F1155 ]
+"611
+} 0
+"332
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+{
+"336
+[v efgtoa@u u `d  1 a 4 52 ]
+[v efgtoa@g g `d  1 a 4 44 ]
+[v efgtoa@l l `d  1 a 4 38 ]
+[v efgtoa@h h `d  1 a 4 34 ]
+[v efgtoa@ou ou `d  1 a 4 20 ]
+"335
+[v efgtoa@n n `i  1 a 2 50 ]
+[v efgtoa@e e `i  1 a 2 48 ]
+[v efgtoa@i i `i  1 a 2 42 ]
+[v efgtoa@w w `i  1 a 2 30 ]
+[v efgtoa@p p `i  1 a 2 28 ]
+[v efgtoa@sign sign `i  1 a 2 26 ]
+[v efgtoa@d d `i  1 a 2 24 ]
+[v efgtoa@m m `i  1 a 2 18 ]
+[v efgtoa@ne ne `i  1 a 2 16 ]
+[v efgtoa@pp pp `i  1 a 2 14 ]
+[v efgtoa@t t `i  1 a 2 12 ]
+"334
+[v efgtoa@mode mode `uc  1 a 1 33 ]
+[v efgtoa@nmode nmode `uc  1 a 1 32 ]
+[s S1732 _IO_FILE 0 ]
+"332
+[v efgtoa@fp fp `*.39S1732  1 p 2 63 ]
+[v efgtoa@f f `d  1 p 4 65 ]
+[v efgtoa@c c `uc  1 p 1 69 ]
+"525
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+{
+[v tolower@c c `i  1 p 2 6 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+{
+[v isupper@c c `i  1 p 2 0 ]
+"8
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"6
+[v strcpy@d d `*.39uc  1 a 2 8 ]
+"5
+[v strcpy@s s `*.34Cuc  1 a 2 6 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 0 ]
+[v strcpy@src src `*.34Cuc  1 p 2 2 ]
+"9
+} 0
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 27 ]
+[v pad@i i `i  1 a 2 25 ]
+[s S1732 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S1732  1 p 2 18 ]
+[v pad@buf buf `*.39uc  1 p 2 20 ]
+[v pad@p p `i  1 p 2 22 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 16 ]
+"10
+[v fputs@c c `uc  1 a 1 15 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 11 ]
+[s S1706 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S1706  1 p 2 13 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[s S1706 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S1706  1 p 2 4 ]
+"24
+} 0
+"175 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/uart5.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"177
+[v putch@txData txData `uc  1 a 1 1 ]
+"178
+} 0
+"161
+[v _UART5_Write UART5_Write `(v  1 e 1 0 ]
+{
+[v UART5_Write@txData txData `uc  1 a 1 wreg ]
+[v UART5_Write@txData txData `uc  1 a 1 wreg ]
+[v UART5_Write@txData txData `uc  1 a 1 0 ]
+"168
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+{
+[u S1916 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"5
+[v floorf@u u `S1916  1 a 4 41 ]
+"7
+[v floorf@m m `ul  1 a 4 35 ]
+"6
+[v floorf@e e `i  1 a 2 39 ]
+"3
+[v floorf@x x `f  1 p 4 25 ]
+"4
+[v floorf@F527 F527 `S1916  1 s 4 F527 ]
+"27
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+{
+[u S1916 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v ___fpclassifyf@u u `S1916  1 a 4 10 ]
+"7
+[v ___fpclassifyf@e e `i  1 a 2 8 ]
+"4
+[v ___fpclassifyf@x x `f  1 p 4 0 ]
+"5
+[v ___fpclassifyf@F465 F465 `S1916  1 s 4 F465 ]
+"11
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"245 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 55 ]
+[v ___flsub@a a `d  1 p 4 59 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 54 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 53 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 52 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 51 ]
+"10
+[v ___fladd@b b `d  1 p 4 39 ]
+[v ___fladd@a a `d  1 p 4 43 ]
+"237
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1571 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1576 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1579 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1571 1 fAsBytes 4 0 `S1576 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1579  1 a 4 33 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 27 ]
+[s S1647 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1650 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1647 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1650  1 a 2 37 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 32 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 31 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 26 ]
+"8
+[v ___flmul@b b `d  1 p 4 14 ]
+[v ___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 39 ]
+[v ___flge@ff2 ff2 `d  1 p 4 43 ]
+"19
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 0 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 4 ]
+"12
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 19 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 12 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 17 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 24 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 23 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 16 ]
+"11
+[v ___fldiv@b b `d  1 p 4 0 ]
+[v ___fldiv@a a `d  1 p 4 4 ]
+"185
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v atoi@n n `i  1 a 2 20 ]
+[v atoi@neg neg `i  1 a 2 13 ]
+"4
+[v atoi@s s `*.32Cuc  1 p 2 7 ]
+"16
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 0 ]
+"8
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"137 C:\Users\sadel\Desktop\SERGIO\UNI\PIC IOT\HIGROMETRO_IOT.X\mcc_generated_files/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E16618  1 a 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E16618  1 a 1 wreg ]
+"140
+[v ADCC_GetSingleConversion@channel channel `E16618  1 a 1 4 ]
+"160
+} 0
